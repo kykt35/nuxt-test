@@ -35,5 +35,12 @@
     "transform": {
       "^.+\\.js$": "babel-jest"
     }
+  },
+  "babel": {
+    "env": {
+      "test": {
+        "presets": ["@babel/preset-env"]
+      }
+    } 
   }
 }
