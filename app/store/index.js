@@ -3,9 +3,7 @@ const state = () => ({
 })
 
 const getters = {
-  increment(state) {
-    state.count++
-  }
+  count: (state) => state.count
 }
 
 const mutations = {
